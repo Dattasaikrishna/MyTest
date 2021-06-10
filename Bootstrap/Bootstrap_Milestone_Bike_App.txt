@@ -1,0 +1,83 @@
+<!-- Development Branch -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ride It</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+
+   <nav>
+		<ul class="nav navbar-nav navbar-left">
+            <li class="dropdown">
+            	<a href="#" class="navbar-brand">
+            		<button data-target="#navbarCollapse">Ride It !!</button>
+            	</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Bikes</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+   </nav>
+
+
+   <div class="row">
+
+   			<div class="panel-heading">
+   				<a class="btn btn-lg btn-success btn-block">Search Bikes</a>
+   			</div>
+        <div class="col-lg-4">
+   			<div class="panel-body">
+   				<form>
+   					<input type="text" placeholder="Enter Pickup city"/>
+   					<input type="date" placeholder="Enter pickup date"/>
+   					<input type="date" placeholder="Enter Drop Date"/>
+   					<button>Search</button>
+   				</form>
+   			</div>
+        </div>
+
+
+
+
+   			<div class="panel-heading">
+   				<a class="btn btn-lg btn-success btn-block">Search Cars</a>
+   			</div>
+        <div class="col-lg-4">
+   			<div class="panel-body">
+   				<form>
+   					<input type="text" placeholder="Enter Pickup city"/>
+   					<input type="date" placeholder="Enter pickup date"/>
+   					<input type="date" placeholder="Enter Drop Date"/>
+   					<button>Search</button>
+   				</form>
+   			</div>
+        </div>
+
+
+   			<div class="panel-heading">
+   				<a class="btn btn-lg btn-success btn-block">Please Login</a>
+   			</div>
+        <div class="col-lg-4">
+   			<div class="panel-body">
+   				<form>
+   					<input type="text" placeholder="E-mail"/>
+   					<input type="password" placeholder="Password"/>
+   					<input type="checkbox" value="Remember Me"/>
+   					<button>Login</button>
+   				</form>
+   			</div>
+        </div>
+
+   </div>
+
+   <footer>@Copyright 2019 RideIt.an</footer>
+
+</body>
+</html>
