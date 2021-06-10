@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ride It</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+   
+   <nav>
+		<ul class="nav navbar-nav navbar-left">
+            <li class="dropdown">
+            	<a href="#" class="navbar-brand">
+            		<button data-target="#navbarCollapse">Ride It !!</button>
+            	</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Bikes</a></li>
+            <li><a href="#">More</a></li>     
+        </ul>
+   </nav>
+
+   <div class="row">
+   	   	<div class="col-lg-9 col-centered">
+   		<div class="panel-heading">Search Bikes</div>
+   		<div class="panel-body">
+   			<form class="form form-inline">
+   				<input type="text" placeholder="Enter Pickup city"/>
+   				<input type="date" placeholder="Enter pickup date"/>
+   				<input type="date" placeholder="Enter Drop Date"/>
+   				<button>Rate It</button>
+   			</form>
+   		</div>
+   </div>
+
+   <div class="row">
+   		<div class="col-lg-2">
+   			<div class="col-lg-9">
+   		<span class="pull-right"></span>   				
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   				<div class="checkbox"></div>
+   			</div>
+   		</div>
+
+   </div>
+
+   <div class="row">
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   		<div class="col-lg-3"></div>
+   </div>
+
+   <div class="row">
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+
+   		<img src="#"/>
+   		<button>Rate It</button>
+   </div>
+
+
+    <footer>@Copyright 2019 RideIt.an</footer>
+
+</body>
+</html>
