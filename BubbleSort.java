@@ -28,7 +28,7 @@ public class BubbleSort
 				}
 			}
 		}	
-		//
+		//updated Code in Development branch
 		System.out.println("Sorted array using Bubble sort is :");
 		for(i=0;i<n;i++)
 		{
@@ -36,4 +36,3 @@ public class BubbleSort
 		}
 	}
 }
-	
