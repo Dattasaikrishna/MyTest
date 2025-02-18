@@ -1,0 +1,60 @@
+{
+   "Transactions":
+    [
+        {   
+            "Date":"10/06/2022",
+            "Info":
+            [
+                {
+                    "Status":"Booked",
+                    "Description":"RINGGO PARKING ON 09 JUN BDC",
+                    "Category":"Transportation - Public Transport",
+                    "Debtor_Creditor": "-",
+                    "Amount": "£ -2.81"
+                },
+                {
+                    "Status":"Booked",
+                    "Description":"INVENTORYBASE ON 09 JUN BDC",
+                    "Category":"Generic - Expenses",
+                    "Debtor_Creditor": "INVENTORYBASE",
+                    "Amount": "£ -60.00"
+                },
+                {
+                    "Status":"Booked",
+                    "Description":"TESCO PFS 4203 ON 09 JUN BDC",
+                    "Category":"Services - Groceries",
+                    "Debtor_Creditor": "-",
+                    "Amount": "£ -78.00"
+                }
+            ]
+        },
+        {   
+            "Date":"09/06/2022",
+            "Info":
+            [
+                {
+                    "Status":"Booked",
+                    "Description":"RINGGO PARKING ON 08 JUN BDC",
+                    "Category":"Transportation - Public Transport",
+                    "Debtor_Creditor": "-",
+                    "Amount": "£ -2.21"
+                },
+                {
+                    "Status":"Booked",
+                    "Description":"CLEANING SUPPLIES ON 08 JUN BDC",
+                    "Category":"Services - Office Equipment",
+                    "Debtor_Creditor": "-",
+                    "Amount": "£ -32.93"
+                },
+                {
+                    "Status":"Booked",
+                    "Description":"Stripe Payments UKSTRIPE BGC",
+                    "Category":"Revenues",
+                    "Debtor_Creditor": "-",
+                    "Amount": "£ 517.05"
+                }
+            ]
+        }
+   ]
+    
+}
